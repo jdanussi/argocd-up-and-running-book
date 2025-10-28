@@ -30,6 +30,8 @@ spec:
           value: pricelist
         - name: MYSQL_USER
           value: pricelist
+        - name: MYSQL_ROOT_PASSWORD
+          value: rootpassword123
         volumeMounts:
         - mountPath: /var/lib/mysql/data
           name: mysql-db
