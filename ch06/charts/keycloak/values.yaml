@@ -6,6 +6,7 @@ internalService:
 ingress:
   annotations:
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
   className: nginx
   host: keycloak.upandrunning.local
   tls:
