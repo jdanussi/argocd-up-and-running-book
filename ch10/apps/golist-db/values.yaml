@@ -9,4 +9,4 @@ mariadb:
     repository: bitnami/mariadb
     tag: latest
     digest: ""     # IMPORTANT: must stay empty if tag is used
-    pullPolicy: IfNotPresen
+    pullPolicy: IfNotPresent
