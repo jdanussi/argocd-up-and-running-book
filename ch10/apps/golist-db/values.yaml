@@ -4,3 +4,9 @@ mariadb:
     database: "golist"
     username: "golist"
     password: "golist"
+  image:
+    registry: docker.io
+    repository: bitnami/mariadb
+    tag: latest
+    digest: ""     # IMPORTANT: must stay empty if tag is used
+    pullPolicy: IfNotPresen
